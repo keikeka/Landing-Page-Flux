@@ -4,9 +4,7 @@ const Footer = () => (
 	<div className="carousel-item">
 		<footer className="row row-cols-5 py-5 my-5 border-top">
 			<div className="col">
-				<a
-					href="/"
-					className="d-flex align-items-center mb-3 link-dark text-decoration-none">
+				<a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
 					<svg className="bi me-2" width="40" height="32">
 						{/* <use xlink:href="#bootstrap"></use> */}{" "}
 					</svg>
@@ -14,7 +12,7 @@ const Footer = () => (
 				<p className="text-muted">© 2021</p>
 			</div>
 
-			<div className="col"></div>
+			<div className="col" />
 
 			<div className="col">
 				<h5>Section</h5>
